@@ -1,0 +1,20 @@
+.main-bg {
+  background-image: url(../img/scattered-forcefields\ \(1\).svg);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+ }
+ .main-content {
+  max-width: 1200rem ;
+  margin: 0 auto;
+  padding: var(--gap);
+ }
+ .section {
+  min-height: 100vh;
+ }
+ .white-bg {
+  background-color: white;
+ }
+ .menu-spacing {
+  height: 65px;
+ }
