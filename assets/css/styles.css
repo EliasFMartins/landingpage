@@ -88,3 +88,14 @@ transform: rotate(5deg);
 .contact-form {
   grid-column: span 2;
 }
+.contact-form .form-grid {
+ border: none; 
+ display: flex;
+ flex-direction:  row;
+ flex-wrap: wrap;
+ gap: var(--gap);
+}
+.form-group {
+ 
+  flex: 1 1 auto 400px;
+}
