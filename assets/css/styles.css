@@ -8,7 +8,7 @@
 .intro-content {
   display: grid;
   position: relative;
-  top: -6.5rem;
+  /* top: -6.5rem; */
   grid-template-columns: 1fr 1.5fr ;
   height: 100vh;
   gap: var(--gap) ;
@@ -84,4 +84,7 @@ transform: rotate(5deg);
 }
 .gallery-img img:hover {
   transform: translate(-3%,3%) scale(1.2) rotate(5deg);
+}
+.contact-form {
+  grid-column: span 2;
 }

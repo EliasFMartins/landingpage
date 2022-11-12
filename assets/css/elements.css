@@ -56,3 +56,28 @@ font-family: 'Open Sans', sans-serif;
  p {
   margin-bottom: 3rem;
  }
+ table {
+  min-width: 360px;
+  width: 100%;
+  border-collapse: collapse;
+ }
+ table td, table th  {
+  white-space: nowrap;
+  padding: 1rem;
+  
+  border: 0.1rem solid lightgray;
+ }
+ table tfoot td , table th{
+  background-color: lightgray;
+ }
+ table caption {
+  font-style: italic;
+  font-size: 1.6rem ;
+  text-align: left;
+  margin-bottom: 1rem;
+ }
+ .responsive-table {
+  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: auto;
+ }
